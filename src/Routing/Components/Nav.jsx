@@ -13,6 +13,7 @@ function Nav() {
             return {
                 color : e.isActive ? 'tomato' : '', 
                 fontWeight : e.isActive ? 'bolder' : '',
+                fontSize : e.isActive ? 'large' : ''
             } 
         } } to="/">Home</NavLink>
 
