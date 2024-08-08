@@ -17,7 +17,7 @@ function Nav() {
             } 
         } } to="/">Home</NavLink>
 
-        <NavLink className={ (e) => {       // Easiest way to apply styles to NavLink
+        <NavLink className={ (e) => {               // Easiest way to apply styles to NavLink
             return [
                 e.isActive ? 'text-red-400' : '', 
                 e.isActive ? 'font-semibold' : '',
