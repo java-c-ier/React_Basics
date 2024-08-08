@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 function User() {
   return (
@@ -12,6 +12,9 @@ function User() {
           <Link className="p-3 bg-red-300 text-xl m-2 transition duration-400 hover:bg-red-500 rounded-lg" to='/user/jimmy'>Jimmy</Link>
         </div>
       </div>
+
+      <hr />
+      <Outlet></Outlet>     {/* For viewing the child component in the same page as parent component */}
     </div>
   );
 }
